@@ -559,13 +559,6 @@ input[type="radio"].visually_hidden {
   padding: 0;
   width: 100%;
 }
-/*.slider-container {
-  width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-  box-sizing: border-box;
- background-color: #e74246;
-}*/
 .slider {
   position: relative;
   margin: 0;
@@ -581,14 +574,13 @@ input[type="radio"].visually_hidden {
   display: flex;
 }
 .slider-controls {
+  margin: 0;
+  padding: 0;
   position: absolute;
+  top: 345px;
   margin-left: 1000px;
   bottom: 104px;
-  z-index: 100;
-
-  width: 160px;
-  height: 18px;
-
+  z-index: 10;
   text-align: center;
   font-size: 0;
   transform: translateX(-50%);
@@ -596,56 +588,19 @@ input[type="radio"].visually_hidden {
 .slider-controls label {
   position: relative;
   display: inline-block;
-  width: 8px;
-  height: 8px;
-  margin-right: 20px;
-  vertical-align: top;
+  width: 12px;
+  height: 12px;
+  margin-right: 21px;
   background-color: transparent;
   border: 2px solid black;
   border-radius: 50%;
   cursor: pointer;
 }
-/*.slider-controls label::after {
-  content: "";
-
-  position: absolute;
-  top: 8px;
-  left: 8px;
-  z-index: 1;
-
-  width: 18px;
-  height: 18px;
-
-  background: red;
-
-  border-radius: 50%;
-
-  position: absolute;
-  min-width: 80px;
-  bottom: 63px;
-  bottom: 135px;
-  right: 85px;
-  z-index: 20;
-  font-size: 0;
-}*/
-.slider_list {
+.slider-item{
   margin: 0;
   padding: 0;
-  list-style: none;
-}
-.slider-item {
-  display: none;
-  padding: 78px 0 80px 0;
-}
-/*слайдер*/
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  clip: rect(0, 0, 0, 0);
-}
-
-.slider-item{
+  border: solid red 2px;
+/* display: flex; */
 display: none;
 width: 1040px;
 margin-left: 90px;
@@ -660,13 +615,14 @@ margin-top: 15px;
 
 }
 .slider-item img {
+  position: relative;
   margin: 0;
   padding: 0;
   margin-top: 0;
   margin-left: 20px;
-  width: 384px;
-  height: 486px;
-  vertical-align: top;
+  /* width: auto;
+  height: auto; */
+  /* border: solid red 2px; */
 }
 #product-1:checked ~ .slider-controls .slider-controls-item--1::before,
 #product-2:checked ~ .slider-controls .slider-controls-item--2::before,
@@ -694,8 +650,11 @@ margin-top: 15px;
 }
 
 .text {
+  position: relative;
   margin: 0;
   padding: 0;
+  top: -500px;
+  margin-left: 550px;
   width: 500px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -707,7 +666,6 @@ margin-top: 15px;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  width: 510px;
 }
 .counter {
   position: relative;
@@ -738,7 +696,7 @@ margin-top: 15px;
   margin: 0;
   padding: 0;
   margin-left: 0;
-  margin-top: -50px;
+  margin-top: -100px;
   margin-bottom: 8px;
 	height: 120px;
   font-family: "gilroy", Arial, sans-serif;
@@ -825,6 +783,7 @@ margin-top: 15px;
 .product_characteristics th {
   margin: 0;
   padding: 0;
+  padding-right: 55px;
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
   font-family: "Open Sans", Arial, sans-serif;
