@@ -595,7 +595,6 @@ input[type="radio"].visually_hidden {
   position: relative;
   margin: 0;
   padding: 0;
-
 }
 .slider-item{
   margin: 0;
@@ -645,10 +644,10 @@ input[type="radio"].visually_hidden {
   position: relative;
   margin: 0;
   padding: 0;
-  top: -500px;
+  /* top: -500px; */
   margin-left: 550px;
   width: 500px;
-  display: -webkit-box;
+  /* display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
@@ -657,7 +656,7 @@ input[type="radio"].visually_hidden {
           flex-direction: column;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
-          justify-content: flex-start;
+          justify-content: flex-start; */
 }
 .counter {
   position: relative;
