@@ -1406,6 +1406,8 @@ position: relative;
   display: none;
 }
 .modal_map p {
+  margin: 0;
+  padding: 0;
   position: absolute;
   top: 0;
   left: 0;
@@ -1413,7 +1415,7 @@ position: relative;
   margin: 0;
 }
 .modal-map iframe {
-  position: relative;
+  position: absolute;
   z-index: 1;
   border: none;
 }
@@ -1423,7 +1425,7 @@ position: relative;
   width: 960px;
   margin-left: -500px;
   height: 559px;
-  z-index: 10;
+  /* z-index: 10; */
 }
 .map_show {
   display: block;
