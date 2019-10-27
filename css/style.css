@@ -770,6 +770,7 @@ input[type="radio"].visually_hidden {
 .product_characteristics th {
   margin: 0;
   padding: 0;
+  text-align: left;
   font-family: "Open Sans", Arial, sans-serif;
   font-size: 13px;
   line-height: 20px;
@@ -793,7 +794,7 @@ input[type="radio"].visually_hidden {
   display: block;
   margin: 0;
   padding: 0;
-  margin-bottom: 185px;
+  margin-bottom: 180px;
   margin-left: auto;
   margin-right: auto;
   font-family: "gilroy", Arial, sans-serif;
