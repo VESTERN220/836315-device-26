@@ -569,34 +569,34 @@ input[type="radio"].visually_hidden {
   margin-left: auto;
   margin-right: auto;
 }
-.slider-controls {
+.slider_controls {
   margin: 0;
   padding: 0;
   position: absolute;
   top: 325px;
-  margin-left: 1000px;
+  margin-left: 1067px;
   z-index: 10;
   text-align: center;
   font-size: 0;
   transform: translateX(-50%);
 }
-.slider-controls label {
+.slider_controls label {
   position: relative;
   display: inline-block;
   width: 12px;
   height: 12px;
-  margin-right: 21px;
+  margin-right: 20px;
   background-color: transparent;
-  border: 2px solid black;
+  border: solid #9f9f9f 2px;
   border-radius: 50%;
   cursor: pointer;
 }
-.slider-list {
+.slider_list {
   position: relative;
   margin: 0;
   padding: 0;
 }
-.slider-item{
+.slider_item{
   margin: 0;
   padding: 0;
   width: 1160px;
@@ -607,17 +607,23 @@ input[type="radio"].visually_hidden {
   justify-content: space-between;
   display: none;
 }
-.slider-item img {
+.slider_item img {
   position: relative;
   margin: 0;
   padding: 0;
   margin-top: 0;
-  margin-left: 31px;
+  margin-left: 90px;
   display: block;
 }
-#product-1:checked ~ .slider-controls .slider-controls-item--1::before,
-#product-2:checked ~ .slider-controls .slider-controls-item--2::before,
-#product-3:checked ~ .slider-controls .slider-controls-item--3::before {
+.img_quadrocopter {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  margin-left: -50px;
+}
+#product-1:checked ~ .slider_controls .slider_controls_item--1::before,
+#product-2:checked ~ .slider_controls .slider_controls_item--2::before,
+#product-3:checked ~ .slider_controls .slider_controls_item--3::before {
   content: "";
   position: absolute;
   left: 50%;
@@ -627,31 +633,31 @@ input[type="radio"].visually_hidden {
   height: 2px;
   margin: -3px;
   background-color: inherit;
-  border: 2px solid black;
+  border: solid #9f9f9f 2px;
   border-radius: 50%;
 }
-#product-1:checked ~ .slider-list .slider-item--1 {
+#product-1:checked ~ .slider_list .slider_item--1 {
   display: flex;
 }
-#product-2:checked ~ .slider-list .slider-item--2 {
+#product-2:checked ~ .slider_list .slider_item--2 {
   display: flex;
 }
-#product-3:checked ~ .slider-list .slider-item--3 {
+#product-3:checked ~ .slider_list .slider_item--3 {
   display: flex;
 }
 .text {
   position: relative;
   margin: 0;
   padding: 0;
-  margin-right: 54px;
-  width: 500px;
+  margin-right: 40px;
+  width: 520px;
 }
 .counter {
-  position: relative;
+  position: absolute;
   margin: 0;
   padding: 0;
   top: -10px;
-  left: 330px;
+  left: 325px;
   width: 165px;
   height: 130px;
   text-align: center;
@@ -661,7 +667,6 @@ input[type="radio"].visually_hidden {
   line-height: 179px;
   font-weight: bold;
   color: white;
-  /* z-index: 0; */
 }
 .counter::before {
   content: "";
@@ -673,10 +678,11 @@ input[type="radio"].visually_hidden {
   background-color: white;
 }
 .tagline {
+  position: relative;
   margin: 0;
   padding: 0;
   margin-left: 0;
-  margin-top: -100px;
+  margin-top: 80px;
   margin-bottom: 8px;
 	height: 120px;
   font-family: "gilroy", Arial, sans-serif;
@@ -684,7 +690,7 @@ input[type="radio"].visually_hidden {
   line-height: 56px;
   letter-spacing: .01em;
   font-weight: bold;
-  /* z-index: auto; */
+  z-index: 5;
 }
 .product_description {
   margin: 0;
@@ -764,9 +770,6 @@ input[type="radio"].visually_hidden {
 .product_characteristics th {
   margin: 0;
   padding: 0;
-  padding-right: 55px;
-  -webkit-box-ordinal-group: 3;
-      -ms-flex-order: 2;
   font-family: "Open Sans", Arial, sans-serif;
   font-size: 13px;
   line-height: 20px;
@@ -790,7 +793,7 @@ input[type="radio"].visually_hidden {
   display: block;
   margin: 0;
   padding: 0;
-  margin-bottom: 180px;
+  margin-bottom: 185px;
   margin-left: auto;
   margin-right: auto;
   font-family: "gilroy", Arial, sans-serif;
@@ -1169,7 +1172,7 @@ position: relative;
   content: "";
   margin: 0;
   padding: 0;
-  margin-top: -50px;
+  margin-top: -55px;
   width: 80px;
   height: 7px;
   background: black;
@@ -1271,7 +1274,7 @@ position: relative;
   content: "";
   width: 80px;
   height: 7px;
-  margin-top: -50px;
+  margin-top: -55px;
   background: black;
 }
 .contacts p {
