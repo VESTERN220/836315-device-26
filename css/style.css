@@ -870,7 +870,7 @@ background: #f0c52e;
 .img_field:hover::after {
   background: #f0c52e;
 }
-.catalog li img {
+.catalog img {
   position: relative;
   margin: 0;
   padding: 0;
@@ -878,7 +878,7 @@ background: #f0c52e;
 .down {
   top: 20px;
 }
-.catalog li img:active {
+.catalog img:active {
   opacity: .3;
 }
 .services {
