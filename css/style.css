@@ -589,7 +589,7 @@ input[type="radio"].visually_hidden {
   height: 9px;
   margin-right: 20px;
   background-color: transparent;
-  border: solid #9f9f9f 2px;
+  border: solid #363636 2px;
   border-radius: 50%;
   cursor: pointer;
 }
@@ -635,7 +635,7 @@ input[type="radio"].visually_hidden {
   height: 2px;
   margin: -3px;
   background-color: inherit;
-  border: solid #9f9f9f 2px;
+  border: solid #363636 2px;
   border-radius: 50%;
 }
 #product-1:checked ~ .slider_list .slider_item--1 {
@@ -1446,6 +1446,7 @@ position: relative;
   background: rgb(240,197,46);
   width: 55px;
   height: 55px;
+  border: solid white 1px;
   border-radius: 50%;
 }
 .map_close::after {
@@ -1614,7 +1615,6 @@ position: relative;
   display: inline-block;
   width: 200px;
   height: 40px;
-  top: 100px;
   outline: none;
   border: none;
   background: none;
@@ -1750,9 +1750,7 @@ position: relative;
   padding: 0;
   margin-left: 20px;
   margin-right: 20px;
-  /* margin-left: 200px; */
   margin-top: 60px;
-  /* margin-bottom: -10px; */
   color: white;
   width: 1000px;
   list-style: none;
@@ -2547,7 +2545,7 @@ position: relative;
   margin: 0;
   padding: 0;
   padding-top: 20px;
-  padding-bottom: 26px;
+  padding-bottom: 25px;
   font-family: "gilroy", Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -2568,7 +2566,7 @@ position: relative;
   padding: 0;
   margin-left: 40px;
   margin-right: 17px;
-  margin-top: 20px;
+  margin-top: 25px;
   width: 500px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2627,7 +2625,7 @@ position: relative;
 .triangle_down {
   margin: 0;
   padding: 0;
-  padding-top: 25px;
+  padding-top: 27px;
   position: relative;
   display: inline-block;
   font-size: 0;
@@ -2860,12 +2858,6 @@ position: relative;
           justify-content: space-between;
 
 }
-/* .inner h3 {
-  margin: 0;
-  padding: 0;
-  width: 254px;
-  border: solid red 1px;
-} */
 .price {
   display: inline-block;
   margin: 0;
