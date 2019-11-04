@@ -485,6 +485,9 @@ input[type="radio"].visually_hidden {
   margin-left: 60px;
   width: 210px;
 }
+.monopods_for_selfie {
+  max-width: 100px;
+}
 .column2 {
   margin: 0;
   padding: 0;
