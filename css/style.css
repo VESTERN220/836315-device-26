@@ -578,7 +578,7 @@ input[type="radio"].visually_hidden {
   margin: 0;
   padding: 0;
   position: absolute;
-  top: 330px;
+  top: 320px;
   margin-left: 1070px;
   z-index: 10;
   text-align: center;
@@ -588,6 +588,7 @@ input[type="radio"].visually_hidden {
 .slider_controls label {
   position: relative;
   display: inline-block;
+  vertical-align:middle;
   width: 9px;
   height: 9px;
   margin-right: 20px;
@@ -715,6 +716,7 @@ input[type="radio"].visually_hidden {
   margin-bottom: 45px;
   position: relative;
   display: inline-block;
+  vertical-align: middle;
   width: 220px;
   height: 40px;
   font-family: "gilroy", Arial, sans-serif;
@@ -928,6 +930,7 @@ background: #f0c52e;
  .button_services_wrapper{
    position: relative;
    display: inline-block;
+   vertical-align: middle;
    margin-bottom: 30px;
  }
  .button_services {
@@ -937,6 +940,7 @@ background: #f0c52e;
    margin-bottom: 42px;
    position: relative;
    display: inline-block;
+   vertical-align: middle;
    width: 160px;
    height: 40px;
    font-family: "gilroy", Arial, sans-serif;
@@ -1210,6 +1214,7 @@ position: relative;
   margin-left: 20px;
   position: relative;
   display: inline-block;
+  vertical-align:middle;
   width: 260px;
   height: 40px;
   font-family: "gilroy", Arial, sans-serif;
@@ -1297,6 +1302,7 @@ position: relative;
   padding: 0;
   position: relative;
   display: inline-block;
+  vertical-align:middle;
   width: 260px;
   height: 40px;
   font-family: "gilroy", Arial, sans-serif;
@@ -1445,6 +1451,7 @@ position: relative;
   left: 860px;
   position: relative;
   display: inline-block;
+  vertical-align:middle;
   font-size: 0;
   background: rgb(240,197,46);
   width: 55px;
@@ -1616,6 +1623,7 @@ position: relative;
 .form_button{
   position: relative;
   display: inline-block;
+  vertical-align:middle;
   width: 200px;
   height: 40px;
   outline: none;
@@ -1656,6 +1664,7 @@ position: relative;
   left: 880px;
   position: relative;
   display: inline-block;
+  vertical-align:middle;
   font-size: 0;
   background: rgb(240,197,46);
   width: 55px;
@@ -2094,6 +2103,7 @@ position: relative;
   margin-left: -10px;
   position: relative;
   display: inline-block;
+  vertical-align:middle;
   width: 200px;
   height: 40px;
   font-family: "gilroy", Arial, sans-serif;
@@ -2188,7 +2198,7 @@ position: relative;
 }
 .range-controls {
   position: relative;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   padding-top: 10px;
   padding-right: 10px;
   padding-left: 0;
@@ -2229,6 +2239,7 @@ position: relative;
 }
 .price-controls label {
   display: inline-block;
+  vertical-align:middle;
   width: 50%;
   font-size: 14px;
   opacity: .2;
@@ -2257,6 +2268,7 @@ position: relative;
   padding: 0;
   margin-left: -10px;
   display: inline-block;
+  vertical-align:middle;
 }
 .color {
   margin-bottom: 20px;
@@ -2264,6 +2276,7 @@ position: relative;
 .bluetooth_item {
   margin-top: 18px;
   display: inline-block;
+  vertical-align:middle;
 }
 .bluetooth {
   margin: 0;
@@ -2631,6 +2644,7 @@ position: relative;
   padding-top: 27px;
   position: relative;
   display: inline-block;
+  vertical-align:middle;
   font-size: 0;
 }
 .triangle_up::after {
@@ -2686,6 +2700,7 @@ position: relative;
   left: 75px;
   position: relative;
   display: inline-block;
+  vertical-align:middle;
   width: 200px;
   height: 40px;
   font-family: "gilroy", Arial, sans-serif;
@@ -2732,6 +2747,7 @@ position: relative;
   left: 75px;
   position: relative;
   display: inline-block;
+  vertical-align:middle;
   width: 200px;
   height: 40px;
   font-size: 13px;
@@ -2863,6 +2879,7 @@ position: relative;
 }
 .price {
   display: inline-block;
+  vertical-align:middle;
   margin: 0;
   padding: 0;
   margin-left: 25px;
