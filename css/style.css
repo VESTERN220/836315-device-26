@@ -723,8 +723,6 @@ input[type="radio"].visually_hidden {
   margin-left: 0;
   margin-bottom: 45px;
   position: relative;
-  display: inline-block;
-  vertical-align: middle;
   width: 220px;
   height: 40px;
   font-family: "gilroy", Arial, sans-serif;
@@ -795,7 +793,7 @@ input[type="radio"].visually_hidden {
   margin: 0;
   padding: 0;
   padding-bottom: 10px;
-  padding-right: 75px;
+  padding-right: 70px;
   -webkit-box-ordinal-group: 2;
       -ms-flex-order: 1;
   font-family: "gilroy", Arial, sans-serif;
