@@ -1588,8 +1588,6 @@ position: relative;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  /* margin-bottom:  50px; */
-  /* padding-bottom: 50px; */
   resize: none;
 }
 .latter_text textarea {
