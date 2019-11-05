@@ -2,7 +2,7 @@
     font-family: "gilroy light";
     src: url("../font/gilroy-light-webfont.woff2") format("woff2");
     src: url("../font/gilroy-light-webfont.woff") format("woff");
-    font-weight: lighter;
+    font-weight: normal;
     font-style: normal;
 }
 @font-face {
@@ -16,7 +16,7 @@
     font-family: "Open Sans";
     src: url("../font/open-sans-light_allfont.ru-webfont.woff2") format("woff2");
     src: url("../font/open-sans-light_allfont.ru-webfont.woff") format("woff");
-    font-weight: lighter;
+    font-weight: normal;
     font-style: normal;
 }
 @font-face {
