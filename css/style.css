@@ -1,23 +1,31 @@
 @font-face {
-    font-family: "gilroy";
-    src: url("../font/gilroy-light-webfont.woff") format("woff");
+    font-family: "gilroy light";
     src: url("../font/gilroy-light-webfont.woff2") format("woff2");
+    src: url("../font/gilroy-light-webfont.woff") format("woff");
     font-weight: lighter;
     font-style: normal;
 }
 @font-face {
     font-family: "gilroy";
-    src: url("../font/gilroy-extrabold-webfont.woff") format("woff");
     src: url("../font/gilroy-extrabold-webfont.woff2") format("woff2");
+    src: url("../font/gilroy-extrabold-webfont.woff") format("woff");
     font-weight: bold;
     font-style: normal;
 }
 @font-face {
     font-family: "Open Sans";
-    src: url("../font/open-sans-light_allfont.ru-webfont.woff") format("woff");
     src: url("../font/open-sans-light_allfont.ru-webfont.woff2") format("woff2");
+    src: url("../font/open-sans-light_allfont.ru-webfont.woff") format("woff");
     font-weight: lighter;
     font-style: normal;
+}
+@font-face {
+    font-family: "Open Sans Regular";
+    src: url("../font/opensans-regular-webfont.woff2") format('woff2');
+    src:url("../font/opensans-regular-webfont.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 body {
   margin: 0;
@@ -929,8 +937,6 @@ background: #f0c52e;
 }
  .button_services_wrapper{
    position: relative;
-   display: inline-block;
-   vertical-align: middle;
    margin-bottom: 30px;
  }
  .button_services {
@@ -939,8 +945,6 @@ background: #f0c52e;
    margin-top: -18px;
    margin-bottom: 42px;
    position: relative;
-   display: inline-block;
-   vertical-align: middle;
    width: 160px;
    height: 40px;
    font-family: "gilroy", Arial, sans-serif;
@@ -961,8 +965,8 @@ background: #f0c52e;
   position: absolute;
   margin: 0;
   padding: 0;
-  margin-top: -227px;
-  margin-left: 117px;
+  top: -100px;
+  margin-left: 278px;
   width: 7px;
   height: 319px;
   background-repeat: no-repeat;
@@ -1584,7 +1588,8 @@ position: relative;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  margin-bottom: 50px;
+  /* margin-bottom:  50px; */
+  /* padding-bottom: 50px; */
   resize: none;
 }
 .latter_text textarea {
@@ -1621,9 +1626,10 @@ position: relative;
   background: rgb(234, 234, 234);
 }
 .form_button{
-  position: relative;
-  display: inline-block;
-  vertical-align:middle;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 450px;
   width: 200px;
   height: 40px;
   outline: none;
@@ -1637,7 +1643,7 @@ position: relative;
   position: absolute;
   width: 200px;
   height: 8px;
-  top: 8px;
+  top: 16px;
   left: 0;
   background: rgb(240,197,46);
   z-index: -1;
@@ -1648,7 +1654,7 @@ position: relative;
   position: absolute;
   width: 200px;
   height: 40px;
-  top: -8px;
+  top: 0px;
   left: 0;
   background: rgb(240,197,46);
   z-index: -1;
@@ -2133,7 +2139,7 @@ position: relative;
 .main_filter_button::before {
   content: "";
   position: absolute;
-  top: 15px;
+  top: 16px;
   left: 0;
   width: 200px;
   height: 8px;
@@ -2803,12 +2809,14 @@ position: relative;
 .catalog_block h3 {
   margin: 0;
   padding: 0;
-  width: 257px;
   font-family: "gilroy", Arial, sans-serif;
   font-size: 18px;
   line-height: 24px;
   letter-spacing: .01em;
   font-weight: bold;
+}
+.follow_me {
+  max-width: 250px;
 }
 .catalog_block_item {
   margin: 0;
@@ -2878,16 +2886,12 @@ position: relative;
 
 }
 .price {
-  display: inline-block;
-  vertical-align:middle;
   margin: 0;
   padding: 0;
-  margin-left: 25px;
-  font-family: "gilroy", Arial, sans-serif;
+  font-family: "gilroy light", Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: .01em;
-  font-weight: lighter;
   color: rgb(70, 70, 70);
 }
 .professional_selfie_stick {
